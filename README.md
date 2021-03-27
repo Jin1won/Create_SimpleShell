@@ -64,3 +64,23 @@ After that, the ```jsh>``` is printed on your terminal.
 	
 ```cat <filename.filetype>```<br>
 	Run the <filename.filetype> file and print the contents of the <filename.filetype> file<br>
+### 4. Errors and exceptions
+
+	In ```cat <filename.filetype>``` command, if <filename.filetype> is not a file or the file is not exist<br>
+	Print "There is no such file!"<br>
+	
+	In ```history <number>``` command, if <number> is bigger than the total number of history records<br>
+	Print all history records.<br>
+	
+	In ```history <number>``` command, it <number> is 0,<br>
+	Print "Input bigger than 0!"<br>
+
+	In ‘history !!’ command, if there is no previous commands before ‘history !!’,<br>
+	Print "There is no previous command!"<br>
+	
+	In ```history !<number>``` command, if there is no history record matched with the <number>, <br>
+	Print "There is no such history record matched with the number!"<br>
+	
+	If command which is not exist is input,<br>
+	Print “There is no such command!”.<br>
+
