@@ -23,6 +23,7 @@ After that, the ```jsh>``` is printed on your terminal.
 
 ## 3. Commands description
 ### 1. cd
+
 ```cd```<br>
    The current directory is changed to /home/user/ directory<br>
    Absolute path is working<br>
@@ -40,18 +41,26 @@ After that, the ```jsh>``` is printed on your terminal.
 ```cd fakeDirectory```<br>
 	Print error message “There is no such directory.”<br>
 ### 2. history
+
 ```history```<br>
 	Print all history of previous commands<br>
-```history <number>```
+	
+```history <number>```<br>
 	Print most recent <number> commands<br>
+	
 ```history !!```<br>
 	Run the previous command<br>
+	
 ```history !<number>```<br>
 	Run the command which matched with <number> index in the history<br>
+	
 ### 3. Other Shell command
+
 ```ls```<br>
 	Print all directories and files in the current directory<br>
+	
 ```pwd```<br>
 	Print the current directory<br>
+	
 ```cat <filename.filetype>```<br>
 	Run the <filename.filetype> file and print the contents of the <filename.filetype> file<br>
