@@ -26,8 +26,8 @@ After that, the jsh> is printed on your terminal.
 	```
 	cd
 	```
-    The current directory is changed to /home/user/ directory
-    Absolute path is working
+   The current directory is changed to /home/user/ directory<br>
+   Absolute path is working
 	cd /home
     The current directory change to /home directory
 	cd user
