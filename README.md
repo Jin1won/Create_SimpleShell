@@ -10,20 +10,22 @@ In the simple shell program, commands ‘pwd’, ‘ls’, ‘cat’, ‘ps’, 
 The executing environment of the java file is Ubuntu which is installed in Oracle Virtual Box.<br>
 After executing Ubuntu, you must open a terminal by using alt + ctrl + t. <br>
 In terminal, you must make class file and after that, you can execute the java file by inputting below commands.<br>
-Compile SimpleShell.java file<br>
+### Compile SimpleShell.java file<br>
 ```
 $ javac SimpleShell.java
 ```
 After that, you can see new SimpleShell.class file in the same directory.<br>
-Run SimpleShell.class file
+### Run SimpleShell.class file
 ```
 $ java SimpleShell
 ```
 After that, the jsh> is printed on your terminal.
 
 ## 3. Commands description
-1.	cd
-	cd
+### 1. cd
+```
+cd
+```
     The current directory is changed to /home/user/ directory
     Absolute path is working
 	cd /home
