@@ -23,12 +23,12 @@ After that, the jsh> is printed on your terminal.
 
 ## 3. Commands description
 ### 1. cd
-```cd```
+```cd```<br>
    The current directory is changed to /home/user/ directory<br>
    Absolute path is working
-	cd /home
+```cd /home```<br>
     The current directory change to /home directory
-	cd user
+```cd user```
     The current directory change to sub directory folder named user
     Relative path is working
 	cd <any existing directory> or cd ./<any existing directory>
